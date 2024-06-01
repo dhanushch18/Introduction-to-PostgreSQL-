@@ -6,3 +6,7 @@ FROM products;
 min
 ------
  2.50
+
+
+SELECT MIN(price) AS lowest_price
+FROM products
