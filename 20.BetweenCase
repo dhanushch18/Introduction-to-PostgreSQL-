@@ -1,0 +1,4 @@
+SELECT * FROM Products
+WHERE product_name BETWEEN 'Pavlova' AND 'Tofu'
+ORDER BY product_name;        
+
